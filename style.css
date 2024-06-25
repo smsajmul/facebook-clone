@@ -1,0 +1,103 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+    margin: 5rem auto;
+}
+
+.left {
+    width: 580px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.l-img-container {
+    width: 330px;
+}
+
+.l-img-container img {
+    width: 100%;
+}
+
+.l-desc p {
+    font-size: 28px;
+    padding-left: 30px;
+}
+
+
+.form-container {
+    width: 396px;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#name,
+#pass {
+    font-size: 16px;
+    padding: 14px 16px;
+    width: 360px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.138);
+    border-radius: 5px;
+}
+
+.btn button {
+    padding: 8px 0px;
+    font-weight: bold;
+    width: 360px;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1877f2;
+    color: white;
+}
+
+.forgot-pass {
+    margin-top: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.093);
+    width: 360px;
+
+}
+
+.forgot-pass a {
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.creat {
+    margin-top: 30px;
+}
+
+.creat a {
+    display: inline-block;
+    background-color: #42b72a;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 14px 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.form-footer {
+    margin-top: 35px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.form-footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
